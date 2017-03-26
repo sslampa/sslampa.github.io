@@ -24,25 +24,139 @@
     <hr>
 
     <div class="container-fluid">
+
+      <!-- Buttons -->
       <div class="row">
         <div class="col-md-8 col-md-offset-2 text-center">
           <div class="btn-group">
-            <a class="btn btn-default">Skills</a>
-            <a class="btn btn-default">Experience</a>
-            <a class="btn btn-default">Projects</a>
+            <a class="btn btn-default" onclick="showTab('about-section')">About Me</a>
+            <a class="btn btn-default" onclick="showTab('skill-section')">Skills</a>
+            <a class="btn btn-default" onclick="showTab('exp-section')">Experience</a>
+            <a class="btn btn-default" onclick="showTab('project-section')">Projects</a>
           </div>
         </div>
       </div>
-      <div class="row">
-        <div class="col-md-2 col-md-offset-1">
-          <div class="button-area">
-            <div>Ruby</div>
-            <div>Python</div>
-            <div>JavaScript</div>
+
+      <!-- About Section -->
+      <div id="about-section" class="row content-section">
+        <div class="col-md-3">
+          <div class="panel panel-default">
+            <div class="panel-heading">Panel 1</div>
+            <div class="panel-body">
+              Some random tLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.ext that does stuff
+            </div>
           </div>
         </div>
-        <div class="col-md-8">
-          <div class="info-area">
+        <div class="col-md-3">
+          <div class="panel panel-default">
+            <div class="panel-heading">Panel 1</div>
+            <div class="panel-body">
+              Some random text that does stuff
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="panel panel-default">
+            <div class="panel-heading">Panel 1</div>
+            <div class="panel-body">
+              Some random text that does stuff
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="panel panel-default">
+            <div class="panel-heading">Panel 1</div>
+            <div class="panel-body">
+              Some random text that does stuff
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="panel panel-default">
+            <div class="panel-heading">Panel 1</div>
+            <div class="panel-body">
+              Some random text that does stuff
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="panel panel-default">
+            <div class="panel-heading">Panel 1</div>
+            <div class="panel-body">
+              Some random text that does stuff
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Skills Section -->
+      <div id="skill-section" class="row content-section" style="display:none">
+        <div class="col-md-3">
+          <div class="panel panel-default">
+            <div class="panel-heading">Ruby</div>
+            <div class="panel-body">
+              <ul>
+                <li>Ruby on Rails</li>
+                <li>Active Record</li>
+                <li>Sinatra</li>
+                <li>Rspec</li>
+                <li>Capybara</li>
+                <li>Filterrific</li>
+                <li>Kaminari</li>
+                <li>Gmaps4Rails</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="panel panel-default">
+            <div class="panel-heading">Python</div>
+            <div class="panel-body">
+              <ul>
+                <li>pandas</li>
+                <li>matplotlib</li>
+                <li>Seaborn</li>
+                <li>Jupyter</li>
+                <li>requests</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="panel panel-default">
+            <div class="panel-heading">SQL</div>
+            <div class="panel-body">
+              <ul>
+                <li>PostgreSQL</li>
+                <li>MySQL</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="panel panel-default">
+            <div class="panel-heading">HTML, CSS, JavaScript</div>
+            <div class="panel-body">
+              <ul>
+                <li>jQuery</li>
+                <li>AJAX</li>
+                <li>Bootstrap</li>
+                <li>HAML</li>
+                <li>SCSS</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="panel panel-default">
+            <div class="panel-heading">Environments</div>
+            <div class="panel-body">
+              <ul>
+                <li>Windows</li>
+                <li>Linux (Ubuntu/Fedora)</li>
+                <li>Mac OS X</li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
@@ -50,5 +164,6 @@
 
     <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="script.js" type="text/javascript"></script>
   </body>
 </html>

@@ -24,3 +24,16 @@
   text-align: center;
   margin-right: 15px;
 }
+
+.panel-body {
+  height: 200px;
+  overflow: auto;
+}
+
+.btn {
+  width: 100px;
+}
+
+.btn-group {
+  margin-bottom: 15px;
+}
