@@ -23,7 +23,7 @@ var projects = {
       "Rails-based multi-page website that matches volunteer candidates with organizations in need of assistance",
       "Linked Filterrific, Kaminari, and Gmaps4Rails gems to sync the information in the filtered table and map",
       "Setup the schema to create a many-to-many relationship for users, events, and organizations using junction tables",
-      "Designed a recommendation algorithm to recommedn the top 3 events a user could join",
+      "Designed a recommendation algorithm to recommend the top 3 events a user could join",
       "Tested the data models and UI using RSpec and Capybara to ensure any change to the code did not affect other areas"
     ]
   },
