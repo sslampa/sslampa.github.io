@@ -3,38 +3,50 @@
   <head>
     <meta charset="utf-8">
     <title>Stephen Lampa</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <h2>Stephen Lampa</h2>
-    <section>
-      <div>
-        <h3>Skills</h3>
-        <ul>
-          <li>HTML/CSS</li>
-          <li>Ruby</li>
-          <li>Javascript</li>
-          <li>SQL</li>
-          <li>Python</li>
-        </ul>
+    <h2 class="text-center">Stephen Lampa</h2>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-6 col-md-offset-3">
+          <p class="about-me-area text-center">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+          </p>
+        </div>
       </div>
-      <div>
-        <h3>Projects</h3>
-        <ul>
-          <li>VolunteerUp</li>
-          <li>Battleship</li>
-          <li>To-Do List App</li>
-          <li>Twitch Viewership</li>
-        </ul>
+    </div>
+
+    <div class="text-center">
+      <a href="#">Github</a>
+      <a href="#">LinkedIn</a>
+    </div>
+    <hr>
+
+    <div class="container-fluid">
+
+      <!-- Buttons -->
+      <div class="row">
+        <div class="col-md-8 col-md-offset-2 text-center">
+          <div class="btn-group">
+            <a class="btn btn-default" onclick="showTab('skill-section')">Skills</a>
+            <a class="btn btn-default" onclick="showTab('project-section')">Projects</a>
+            <a class="btn btn-default" onclick="showTab('experience-section')">Experience</a>
+            <a class="btn btn-default" onclick="showTab('volunteer-section')">Volunteer</a>
+          </div>
+        </div>
       </div>
-      <div>
-        <h3>Experience</h3>
-        <ul>
-          <li>Xander</li>
-          <li>UC Davis Physics Department</li>
-          <li>MAST</li>
-        </ul>
-      </div>
-    </section>
+
+      <div id="skill-section" class="row content-section"></div>
+      <div id="project-section" class="row content-section" style="display:none"></div>
+      <div id="experience-section" class="row content-section" style="display:none"></div>
+      <div id="volunteer-section" class="row content-section" style="display:none"></div>
+
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="model.js" type="text/javascript"></script>
+    <script src="script.js" type="text/javascript"></script>
   </body>
 </html>

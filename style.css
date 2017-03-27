@@ -1,3 +1,39 @@
-p {
-  color: red;
+.col-md-2 {
+  padding: 0;
+}
+.col-md-8 {
+  padding: 0;
+}
+
+.button-area {
+  height: 400px;
+  border: 1px solid black;
+  text-align: center;
+  margin-left: 15px;
+}
+
+.button-area div {
+  padding-bottom: 5px;
+  padding-top: 5px;
+  border-bottom: 1px solid gray;
+  line-height: 30px;
+}
+.info-area {
+  height: 400px;
+  border: 1px solid black;
+  text-align: center;
+  margin-right: 15px;
+}
+
+.panel-body {
+  height: 200px;
+  overflow: auto;
+}
+
+.btn {
+  width: 100px;
+}
+
+.btn-group {
+  margin-bottom: 15px;
 }
