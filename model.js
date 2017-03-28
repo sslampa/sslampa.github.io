@@ -18,7 +18,7 @@ var skills = {
 
 var projects = {
   "VolunteerUP": {
-    "link": "https://github.com/stephaniejue/VolunteerUP",
+    "link": "https://volunteerup.herokuapp.com/",
     "content": [
       "Rails-based multi-page website that matches volunteer candidates with organizations in need of assistance",
       "Linked Filterrific, Kaminari, and Gmaps4Rails gems to sync the information in the filtered table and map",
@@ -28,7 +28,7 @@ var projects = {
     ]
   },
   "Battleship": {
-    "link": "https://github.com/sslampa/battleship",
+    "link": "battleship/index.html",
     "content": [
       "Single-player Battleship game",
       "Generated game layout using HTML and CSS with flexbox",
@@ -36,7 +36,7 @@ var projects = {
     ]
   },
   "To-Do List": {
-    "link": "https://github.com/sslampa/to-do-list",
+    "link": "to-do-list/index.html",
     "content": [
       "To-Do List App that adds, removes, and updates items",
       "Uses JavaScript to create a mock model",
