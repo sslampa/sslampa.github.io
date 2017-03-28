@@ -14,6 +14,7 @@ var skills = {
   "Environments": {
     "content": ["Windows", "Linux (Ubuntu/Fedora)", "Mac OS X"]
   }
+  
 };
 
 var projects = {
