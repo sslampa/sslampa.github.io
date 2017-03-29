@@ -1,0 +1,6 @@
+[submodule "battleship"]
+	path = battleship
+	url = https://github.com/sslampa/battleship.git
+[submodule "to-do-list"]
+	path = to-do-list
+	url = https://github.com/sslampa/to-do-list.git
