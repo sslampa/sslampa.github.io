@@ -3,6 +3,11 @@ $(document).ready(function() {
   addPanel(projects, "#project-section");
   addPanel(experience, "#experience-section");
   addPanel(volunteer, "#volunteer-section");
+
+  $(".btn-group a.btn").on("click", function() {
+    $(".btn-group a.btn").removeClass("active-btn");
+    $(this).addClass("active-btn");
+  });
 });
 
 function showTab(tab) {
