@@ -23,7 +23,7 @@ function addPanel(panel, id) {
 
     for (var content in panel[key]) {
       if (content === 'link') {
-        url = '<a target="_blank" href="' + panel[key][content] + '">' + key + '</a>';
+        url = '<a target="_blank" class="link-title" href="' + panel[key][content] + '">' + key + '</a>';
       } else if (content === 'github') {
         github = '<a target="_blank" href="' + panel[key][content] + '"><i class="devicon-github-plain colored"></i></a>'
       } else {
