@@ -6,11 +6,19 @@ h1, .panel-heading, .btn-group {
   font-family: 'Abril Fatface', cursive;
 }
 
-.col-md-2 {
+i {
+  padding: 2px 2px;
+}
+
+.col-md-3 {
   padding: 0;
 }
 .col-md-8 {
   padding: 0;
+}
+
+.contact-info {
+  margin-bottom: 10px;
 }
 
 .button-area {
