@@ -1,35 +1,37 @@
 var skills = {
-  "Ruby": {
+  'Ruby <i class="devicon-ruby-plain colored"></i>': {
     "content": ["Ruby on Rails", "Sinatra", "RSpec", "Capybara", "Filterrific", "Kaminari", "Gmaps4Rails"]
   },
-  "Python": {
+  'Python <i class="devicon-python-plain colored"></i>': {
     "content": ["pandas", "matplotlib", "Seaborn", "Jupyter", "requests"]
   },
-  "HTML, CSS, JavaScript": {
+  'HTML <i class="devicon-html5-plain colored"></i>, CSS <i class="devicon-css3-plain colored"></i>, JavaScript <i class="devicon-javascript-plain colored"></i>': {
     "content": ["jQuery", "AJAX", "Bootstrap", "HAML", "SCSS"]
   },
-  "SQL": {
+  'SQL <i class="devicon-postgresql-plain colored"></i> <i class="devicon-mysql-plain colored"></i>': {
     "content": ["PostgreSQL", "MySQL"]
   },
-  "Environments": {
+  'Environments <i class="devicon-windows8-original colored"></i> <i class="devicon-linux-plain colored"></i> <i class="devicon-apple-original colored"></i>': {
     "content": ["Windows", "Linux (Ubuntu/Fedora)", "Mac OS X"]
   }
-  
+
 };
 
 var projects = {
   "VolunteerUP": {
     "link": "https://volunteerup.herokuapp.com/",
+    "github":  "https://github.com/stephaniejue/VolunteerUP",
     "content": [
       "Rails-based multi-page website that matches volunteer candidates with organizations in need of assistance",
       "Linked Filterrific, Kaminari, and Gmaps4Rails gems to sync the information in the filtered table and map",
       "Setup the schema to create a many-to-many relationship for users, events, and organizations using junction tables",
-      "Designed a recommendation algorithm to recommedn the top 3 events a user could join",
+      "Designed a recommendation algorithm to recommend the top 3 events a user could join",
       "Tested the data models and UI using RSpec and Capybara to ensure any change to the code did not affect other areas"
     ]
   },
   "Battleship": {
     "link": "battleship/index.html",
+    "github": "https://github.com/sslampa/battleship",
     "content": [
       "Single-player Battleship game",
       "Generated game layout using HTML and CSS with flexbox",
@@ -38,6 +40,7 @@ var projects = {
   },
   "To-Do List": {
     "link": "to-do-list/index.html",
+    "github": "https://github.com/sslampa/to-do-list",
     "content": [
       "To-Do List App that adds, removes, and updates items",
       "Uses JavaScript to create a mock model",
@@ -45,7 +48,7 @@ var projects = {
     ]
   },
   "Twitch.tv": {
-    "link": "https://github.com/sslampa/twitch-repo",
+    "github": "https://github.com/sslampa/twitch-repo",
     "content": [
       "Gather and analyze data from Twitch.tv",
       "Retrieved data with Twitch.tv API and Python requests library to periodically add data to MySQL database",

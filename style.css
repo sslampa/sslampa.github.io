@@ -1,8 +1,24 @@
-.col-md-2 {
+body {
+  font-family: 'Ubuntu', san-serif;
+}
+
+h1, .panel-heading, .btn-group {
+  font-family: 'Abril Fatface', cursive;
+}
+
+i {
+  padding: 2px 2px;
+}
+
+.col-md-3 {
   padding: 0;
 }
 .col-md-8 {
   padding: 0;
+}
+
+.contact-info {
+  margin-bottom: 10px;
 }
 
 .button-area {
@@ -25,6 +41,9 @@
   margin-right: 15px;
 }
 
+.panel-heading {
+  background-color: #9e9e9e;
+}
 .panel-body {
   height: 200px;
   overflow: auto;
@@ -37,3 +56,24 @@
 .btn-group {
   margin-bottom: 15px;
 }
+
+.btn:hover, .active-btn, .btn:active, .btn:focus, .btn:active:focus {
+  background-color: #F44336;
+  /*border-color: #9e9e9e;*/
+  border-color: #C62828;
+  color: white;
+  font-weight: bold;
+}
+
+/*.active-btn {
+  background-color: #F44336;
+  border-color: #9e9e9e;
+  color: white;
+  font-weight: bold;
+}*/
+
+/*.active-btn:hover {
+  background-color: white;
+  color: #333;
+  font-weight: normal;
+}*/
