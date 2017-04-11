@@ -6,7 +6,7 @@ var skills = {
     "content": ["pandas", "matplotlib", "Seaborn", "Jupyter", "requests"]
   },
   'HTML <i class="devicon-html5-plain colored"></i>, CSS <i class="devicon-css3-plain colored"></i>, JavaScript <i class="devicon-javascript-plain colored"></i>': {
-    "content": ["jQuery", "AJAX", "Bootstrap", "HAML", "SCSS"]
+    "content": ["jQuery", "AJAX", "Bootstrap", "HAML", "Sass"]
   },
   'SQL <i class="devicon-postgresql-plain colored"></i> <i class="devicon-mysql-plain colored"></i>': {
     "content": ["PostgreSQL", "MySQL"]
@@ -18,6 +18,16 @@ var skills = {
 };
 
 var projects = {
+  "RailsBridge San Diego Website": {
+    "link": "http://www.railsbridgesd.org",
+    "github": "https://github.com/railsbridgesd/railsbridgesd",
+    "content": [
+      "Sinatra-based single-page website that provides users with all the information needed to join RailsBridge, a free two-day workshop where women and underrepresented groups can learn how to build a web app with Ruby on Rails",
+      "Created AJAX calls that added users to mailing list and e-mails sent to organizers",
+      "Added e-mail and form validation on the client side",
+      "Styled navbar using Bootstrap and Sass"
+    ]
+  },
   "VolunteerUP": {
     "link": "https://volunteerup.herokuapp.com/",
     "github":  "https://github.com/stephaniejue/VolunteerUP",
