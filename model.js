@@ -1,12 +1,18 @@
 var skills = {
+  'JavaScript <i class="devicon-javascript-plain colored"></i>': {
+    "content": ["Node", "React", "ES6", "jQuery", "AJAX", "Webpack"]
+  },
   'Ruby <i class="devicon-ruby-plain colored"></i>': {
     "content": ["Ruby on Rails", "Sinatra", "RSpec", "Capybara", "Filterrific", "Kaminari", "Gmaps4Rails"]
+  },
+  'Go <i class="devicon-go-plain colored"></i>': {
+    "content": ["net/http", "net/http/httptest", "testing", "encoding/json", "database/sql"]
   },
   'Python <i class="devicon-python-plain colored"></i>': {
     "content": ["pandas", "matplotlib", "Seaborn", "Jupyter", "requests"]
   },
-  'HTML <i class="devicon-html5-plain colored"></i>, CSS <i class="devicon-css3-plain colored"></i>, JavaScript <i class="devicon-javascript-plain colored"></i>': {
-    "content": ["jQuery", "AJAX", "Bootstrap", "HAML", "Sass"]
+  'HTML <i class="devicon-html5-plain colored"></i>, CSS <i class="devicon-css3-plain colored"></i>': {
+    "content": ["Bootstrap", "HAML", "Sass"]
   },
   'SQL <i class="devicon-postgresql-plain colored"></i> <i class="devicon-mysql-plain colored"></i>': {
     "content": ["PostgreSQL", "MySQL"]
@@ -23,20 +29,30 @@ var projects = {
     "github": "https://github.com/railsbridgesd/railsbridgesd",
     "content": [
       "Sinatra-based single-page website that provides users with all the information needed to join RailsBridge, a free two-day workshop where women and underrepresented groups can learn how to build a web app with Ruby on Rails",
-      "Created AJAX calls that added users to mailing list and e-mails sent to organizers",
+      "Set up AJAX requests for contact forms used in mailing list and e-mails sent to organizers",
+      "Styled responsive website page using Bootstrap and SASS",
       "Added e-mail and form validation on the client side",
-      "Styled navbar using Bootstrap and Sass"
+      "Communicated through Slack and logged issues on GitHub"
     ]
   },
   "VolunteerUP": {
     "link": "https://volunteerup.herokuapp.com/",
     "github":  "https://github.com/stephaniejue/VolunteerUP",
     "content": [
-      "Rails-based multi-page website that matches volunteer candidates with organizations in need of assistance",
-      "Linked Filterrific, Kaminari, and Gmaps4Rails gems to sync the information in the filtered table and map",
-      "Setup the schema to create a many-to-many relationship for users, events, and organizations using junction tables",
-      "Designed a recommendation algorithm to recommend the top 3 events a user could join",
-      "Tested the data models and UI using RSpec and Capybara to ensure any change to the code did not affect other areas"
+      "Generated a recommendation algorithm that recommends the top 3 events a user could join",
+      "Constructed schema to create a many-to-many relationship for users, events, and orgs using multiple junction tables",
+      "Populated database seed for test and development environments to increase efficiency in testing",
+      "Tested the data models and UI using RSpec/Capybara and adhered to TDD/BDD processes",
+      "Linked filterrific, kaminari, and gmaps4rails gems to show synchronized data in the filtered table and map"
+    ]
+  },
+  "React-Rails": {
+    "link": "https://anferne.herokuapp.com/",
+    "github": "https://github.com/suzmas/react-rails",
+    "content": [
+      "Implemented a filter system using JavaScript/ES6 from data passed through changed props/states",
+      "Created a Leaflet map that spawns markers based on filtered events/places shown in panels",
+      "Designed UI using react-bootstrap and flexbox"
     ]
   },
   "Battleship": {
@@ -52,7 +68,7 @@ var projects = {
     "link": "to-do-list/index.html",
     "github": "https://github.com/sslampa/to-do-list",
     "content": [
-      "To-Do List App that adds, removes, and updates items",
+      "Created a To-Do List App over a single weekend that adds, removes, and updates items",
       "Uses JavaScript to create a mock model",
       "Uses jQuery to create the controller that creates, updates, and deletes items"
     ]
